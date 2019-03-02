@@ -13,14 +13,13 @@ spring:
 
 eureka:
   instance: 
-    hostname: eureka7001.com
+    host-info: eureka7001.com
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
-
 server:
   port: 7001
 
@@ -31,7 +30,7 @@ spring:
   
 eureka:
   instance: 
-    hostname: eureka7001.com
+    host-info: eureka7001.com
   client:
     register-with-eureka: false
     fetch-registry: false
