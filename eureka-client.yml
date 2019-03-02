@@ -26,8 +26,8 @@ server:
 
 spring:
   profiles: test    #测试环境
-    application: 
-      name: microservice-springcloud-config-client-eureka
+  application: 
+    name: microservice-springcloud-config-eureka-client
   
 eureka:
   instance: 
@@ -37,8 +37,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
-
-
 
 eureka:
   client:
