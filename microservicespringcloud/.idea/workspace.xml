@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c192d16-001d-42e2-8d77-9dddf352c852" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-provider8081/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-provider8082/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-eureka-7003/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-provider8083/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-provider-8084-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-config-one/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-config-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-springcloud-config-department-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Dept</find>
+      <find>package com\.atguigu\.springcloud\.rest\;\n\nimport org\.springframework\.beans\.factory\.annotation\.Value\;\nimport org\.springframework\.web\.bind\.annotation\.RequestMapping\;\nimport org\.springframework\.web\.bind\.annotation\.RestController\;\n\n\@RestController\npublic class ConfigClientRest\n\{\n\n\	\@Value\(\&quot;\$\{spring\.application\.name\}\&quot;\)\n\	private String applicationName\;\n\n\	\@Value\(\&quot;\$\{eureka\.client\.service\-url\.defaultZone\}\&quot;\)\n\	private String eurekaServers\;\n\n\	\@Value\(\&quot;\$\{server\.port\}\&quot;\)\n\	private String port\;\n\n\	\@RequestMapping\(\&quot;\/config\&quot;\)\n\	public String getConfig\(\)\n\	\{\n\	\	String str \= \&quot;applicationName\: \&quot; \+ applicationName \+ \&quot;\\t eurekaServers\:\&quot; \+ eurekaServers \+ \&quot;\\t port\: \&quot; \+ port\;\n\	\	System\.out\.println\(\&quot;\*\*\*\*\*\*str\: \&quot; \+ str\)\;\n\	\	return \&quot;applicationName\: \&quot; \+ applicationName \+ \&quot;\\t eurekaServers\:\&quot; \+ eurekaServers \+ \&quot;\\t port\: \&quot; \+ port\;\n\	\}\n\}\n</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Department</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/java/com/atguigu/springcloud/DepartmentConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/java/com/atguigu/springcloud/controller/DepartmentControllerConsumer.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/java/com/atguigu/springcloud/DepartmentConsumerApplicationFeign.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8081/src/main/java/com/atguigu/springcloud/DepartmentProviderApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8081/src/main/java/com/atguigu/springcloud/DepartmentProviderApplication8081.java" />
+        <option value="$PROJECT_DIR$/micro-service-eureka-7001/src/main/java/com/atguigu/springcloud/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/micro-service-eureka-7002/src/main/java/com/atguigu/springcloud/EurekaServerApplication7002.java" />
+        <option value="$PROJECT_DIR$/micro-service-eureka-7001/src/main/java/com/atguigu/springcloud/EurekaServerApplication7001.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/java/com/atguigu/springcloud/controller/DepartmentControllerConsumerFeign.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider-8084-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/java/com/atguigu/springcloud/DepartmentProviderApplication8084.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-api/src/main/java/com/atguigu/springcloud/service/DepartmentClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-api/src/main/java/com/atguigu/springcloud/service/DepartmentClientService.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/java/com/atguigu/springcloud/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-service-eureka-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/src/main/java/com/atguigu/springcloud/DepartmentConsumerApplicationDashboard.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-zuul-gateway/src/main/java/com/atguigu/springcloud/Demo.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-zuul-gateway/src/main/java/com/atguigu/springcloud/Zuul_9527_StartSpringCloudApp.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-one/src/main/java/com/atguigu/springcloud/SpringCloudConfigOneApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-one/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-client/src/main/java/com/atguigu/springcloud/rest/ConfigClientRest.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-client/src/main/java/com/atguigu/springcloud/SpringCloudConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/java/com/atguigu/springcloud/EurekaServerApplication7001.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-one/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-department-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/DepartmentEurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/bootstrap.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\structure\maven\repo" />
+        <option name="mavenHome" value="D:/Program Files/maven" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-springcloud-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-springcloud-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="27" />
+    <option name="y" value="12" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-config-department-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicespringcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicespringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-springcloud-provider8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../dubbo/springboot-dubbo/pom.xml" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\structure\IDEA\springcloud\microservicespringcloud\microservice-springcloud-config-department-client\src\main\resources" />
+      <recent name="E:\structure\IDEA\springcloud\microservicespringcloud\microservice-springcloud-config-department-client\src\main\java" />
+      <recent name="E:\structure\IDEA\springcloud\microservicespringcloud\microservice-springcloud-config-eureka-client\src\main\resources" />
+      <recent name="E:\structure\IDEA\springcloud\microservicespringcloud\microservice-springcloud-config-client\src\main\java\com\atguigu\springcloud" />
+      <recent name="E:\structure\IDEA\springcloud\microservicespringcloud\microservice-springcloud-config-one\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigDepartmentClientApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="SpringCloudConfigOneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.springcloud.SpringCloudConfigOneApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="microservice-springcloud-config-one" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="ConfigDepartmentClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigDepartmentClientApplication" />
+      <module name="microservice-springcloud-config-department-client" />
+      <envs />
+    </configuration>
+    <configuration name="ConfigEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigEurekaClientApplication" />
+      <module name="microservice-springcloud-config-eureka-client" />
+      <envs />
+    </configuration>
+    <configuration name="DepartmentProviderApplication8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.DepartmentProviderApplication8081" />
+      <module name="microservice-springcloud-provider8081" />
+      <envs />
+    </configuration>
+    <configuration name="SpringCloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.SpringCloudConfigClientApplication" />
+      <module name="microservice-springcloud-config-client" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.SpringCloudConfigOneApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringCloudConfigClientApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigEurekaClientApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigDepartmentClientApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.DepartmentProviderApplication8081" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigDepartmentClientApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DepartmentProviderApplication8081" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigEurekaClientApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpringCloudConfigOneApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringCloudConfigClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c192d16-001d-42e2-8d77-9dddf352c852" name="Default" comment="" />
+      <created>1550944128712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550944128712</updated>
+      <workItem from="1550944130086" duration="259000" />
+      <workItem from="1550977972051" duration="3032000" />
+      <workItem from="1550985207291" duration="1698000" />
+      <workItem from="1550987256557" duration="13850000" />
+      <workItem from="1551105757802" duration="2524000" />
+      <workItem from="1551364406452" duration="1602000" />
+      <workItem from="1551451149063" duration="821000" />
+      <workItem from="1551456251335" duration="138000" />
+      <workItem from="1551542126801" duration="13978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37902000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8054054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="104" y="297" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-springcloud-config-client/src/main/java/com/atguigu/springcloud/rest/ConfigClientRest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Department().setDeptId(id).setDeptName(&quot;数据库中没有查到deptId为&lt;&quot; + id + &quot;&gt;对应的信息,Consumer客户端提供的降级信息,此刻服务Provider已经关闭&quot;).setDbSource(&quot;no this database in MySQL&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Department().setDeptId(id).setDeptName(&quot;数据库中没有查到deptId为&lt;&quot; + id + &quot;&gt;对应的信息,Consumer客户端提供的降级信息,此刻服务Provider已经关闭&quot;)
+                .setDbSource(&quot;no this database in MySQL&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/java/com/atguigu/springcloud/controller/DepartmentControllerConsumerFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/java/com/atguigu/springcloud/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/resources/mybatis/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/java/com/atguigu/springcloud/DepartmentProviderApplication8084.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/src/main/java/com/atguigu/springcloud/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-api/src/main/java/com/atguigu/springcloud/service/DepartmentClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-api/src/main/java/com/atguigu/springcloud/service/DepartmentClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service-eureka-7003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8081/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8082/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8083/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/src/main/java/com/atguigu/springcloud/DepartmentConsumerApplicationDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer-hystrixdashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-zuul-gateway/src/main/java/com/atguigu/springcloud/Zuul_9527_StartSpringCloudApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#491#492#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-zuul-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-zuul-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-api/src/main/java/com/atguigu/springcloud/entities/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-client/src/main/java/com/atguigu/springcloud/SpringCloudConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-client/src/main/java/com/atguigu/springcloud/rest/ConfigClientRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-one/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-one/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-one/src/main/java/com/atguigu/springcloud/SpringCloudConfigOneApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service-eureka-7001/src/main/java/com/atguigu/springcloud/EurekaServerApplication7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/java/com/atguigu/springcloud/ConfigEurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-eureka-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/mybatis/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1548952201391" expanded="true" signature="579:653" ph="select dept_... Department" />
+            <marker date="1548952201391" expanded="true" signature="712:764" ph="select dept_... Department" />
+            <marker date="1548952201391" expanded="true" signature="830:904" ph="INSERT INTO Department... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/java/com/atguigu/springcloud/ConfigDepartmentClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-provider8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="38" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-springcloud-config-department-client/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -40,8 +40,8 @@ eureka:
 info:
     app.name: microservice-springcloud-config-department-client
     company.name: www.atguigu.com
-    build.artifactId: ${project.artifactId}
-    build.version: ${project.version}
+    build.artifactId: $project.artifactId$
+    build.version: $project.version$
     
 ---
 
@@ -82,5 +82,5 @@ eureka:
 info:
     app.name: microservice-springcloud-config-department-client
     company.name: www.atguigu.com
-    build.artifactId: ${project.artifactId}
-    build.version: ${project.version}
+    build.artifactId: $project.artifactId$
+    build.version: $project.version$
