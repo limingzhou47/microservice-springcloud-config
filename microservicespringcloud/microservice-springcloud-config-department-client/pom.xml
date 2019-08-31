@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.atguigu.springcloud</groupId>
-            <artifactId>microservicespringcloud-api</artifactId>
+            <artifactId>microservice-springcloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!-- SpringCloudConfig配置 -->

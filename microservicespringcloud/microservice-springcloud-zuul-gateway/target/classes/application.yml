@@ -25,6 +25,6 @@ zuul:
 info:
   app.name: atguigu-microcloud
   company.name: www.atguigu.com
-  build.artifactId: microservice-springcloud-zuul-gateway
-  build.version: 1.0.0-SNAPSHOT
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 

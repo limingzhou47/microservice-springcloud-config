@@ -24,22 +24,22 @@ public class DepartmentController {
     @Autowired
     private DiscoveryClient discoveryClient;
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @PostMapping(value = "/add")
     public boolean add(@RequestBody Department dept) {
-        return departmentService.add(dept);
+        return departmentService.addDepartment(dept);
     }
 
-    @RequestMapping(value = "/get/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/get/{id}")
     public Department get(@PathVariable("id") Long id) {
-        return departmentService.get(id);
+        return departmentService.getDepartment(id);
     }
 
-    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    @GetMapping(value = "/list")
     public List<Department> list() {
-        return departmentService.list();
+        return departmentService.listDepartment();
     }
 
-    @RequestMapping(value = "/discovery", method = RequestMethod.GET)
+    @GetMapping(value = "/discovery")
     public Object discovery() {
         List<String> list = discoveryClient.getServices();
         System.out.println("**********" + list);

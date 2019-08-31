@@ -35,6 +35,6 @@ eureka:
 info:
     app.name: atguigu-microservice-springcloud
     company.name: www.atguigu.com
-    build.artifactId: microservice-springcloud-provider8084-hystrix
-    build.version: 1.0.0-SNAPSHOT
+    build.artifactId: ${project.artifactId}
+    build.version: ${project.version}
 

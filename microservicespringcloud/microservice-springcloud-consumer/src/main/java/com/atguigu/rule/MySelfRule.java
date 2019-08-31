@@ -1,6 +1,7 @@
 package com.atguigu.rule;
 
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,7 +15,7 @@ public class MySelfRule {
 
     @Bean
     public IRule myRule() {
-        //return new RandomRule();    //默认为轮询,自定义为随机
-        return new RandomRule_LMZ();    //默认为轮询
+        return new RandomRule();    //默认为轮询,自定义为随机
+        //return new RandomRule_LMZ();    //默认为轮询
     }
 }

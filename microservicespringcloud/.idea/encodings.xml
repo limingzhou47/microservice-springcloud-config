@@ -18,5 +18,6 @@
     <file url="file://$PROJECT_DIR$/microservice-springcloud-provider8083" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-provider8084-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-zuul-gateway" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

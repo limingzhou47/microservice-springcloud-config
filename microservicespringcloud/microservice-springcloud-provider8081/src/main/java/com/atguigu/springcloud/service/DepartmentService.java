@@ -14,9 +14,9 @@ import java.util.List;
  */
 public interface DepartmentService {
 
-    boolean add(Department dept);
+    boolean addDepartment(Department dept);
 
-    Department get(Long id);
+    Department getDepartment(Long id);
 
-    List<Department> list();
+    List<Department> listDepartment();
 }

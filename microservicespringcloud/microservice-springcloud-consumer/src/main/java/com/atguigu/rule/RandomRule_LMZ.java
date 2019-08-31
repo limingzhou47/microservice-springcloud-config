@@ -14,8 +14,6 @@ import java.util.List;
  */
 public class RandomRule_LMZ extends AbstractLoadBalancerRule {
 
-
-
     // total = 0 // 当total==5以后，我们指针才能往下走，
     // index = 0 // 当前对外提供服务的服务器地址，index不大于3
     // total需要重新置为零，但是已经达到过一个5次，我们的index = 1

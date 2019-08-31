@@ -20,17 +20,17 @@ public class DepartmentServiceImpl implements DepartmentService {
     private DepartmentMapper departmentMapper;
 
     @Override
-    public boolean add(Department dept) {
+    public boolean addDepartment(Department dept) {
         return departmentMapper.addDept(dept);
     }
 
     @Override
-    public Department get(Long id) {
+    public Department getDepartment(Long id) {
         return departmentMapper.findById(id);
     }
 
     @Override
-    public List<Department> list() {
+    public List<Department> listDepartment() {
         return departmentMapper.findAll();
     }
 }
