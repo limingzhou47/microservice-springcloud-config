@@ -17,9 +17,9 @@ import java.util.List;
 @RestController
 public class DepartmentControllerConsumer {
 
-    //private static final String REST_URL_PREFIX = "http://localhost:8081";
+    private static final String REST_URL_PREFIX = "http://localhost:8081";
 
-    private static final String REST_URL_PREFIX = "http://MICROSERVICE-SPRINGCLOUD-PROVIDER";
+    //private static final String REST_URL_PREFIX = "http://MICROSERVICE-SPRINGCLOUD-PROVIDER";
 
     /**
      * 使用RestTemplate访问restful接口
