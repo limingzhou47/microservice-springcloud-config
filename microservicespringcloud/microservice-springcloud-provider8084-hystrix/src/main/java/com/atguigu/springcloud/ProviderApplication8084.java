@@ -15,9 +15,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @EnableDiscoveryClient      //服务发现
 @EnableCircuitBreaker       //对Hystrix熔断机制的支持
-public class DepartmentProviderApplication8084 {
+public class ProviderApplication8084 {
 
     public static void main(String[] args) {
-        SpringApplication.run(DepartmentProviderApplication8084.class,args);
+        SpringApplication.run(ProviderApplication8084.class,args);
     }
 }

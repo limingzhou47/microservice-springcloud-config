@@ -13,9 +13,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient      //服务发现
-public class DepartmentProviderApplication8083 {
+public class ProviderApplication8082 {
 
     public static void main(String[] args) {
-        SpringApplication.run(DepartmentProviderApplication8083.class,args);
+        SpringApplication.run(ProviderApplication8082.class,args);
     }
 }
